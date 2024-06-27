@@ -1,0 +1,208 @@
+{
+    "title": "Recording 5/3/2024 at 3:23:34 PM",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 2306,
+            "height": 1059,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "https://akeyless-community.github.io/mock-authentication/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://akeyless-community.github.io/mock-authentication/",
+                    "title": "Fake Authentication"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Username"
+                ],
+                [
+                    "#username"
+                ],
+                [
+                    "xpath///*[@id=\"username\"]"
+                ],
+                [
+                    "pierce/#username"
+                ]
+            ],
+            "offsetY": 19.609375,
+            "offsetX": 104.40625
+        },
+        {
+            "type": "change",
+            "value": "defaultuser",
+            "selectors": [
+                [
+                    "aria/Username"
+                ],
+                [
+                    "#username"
+                ],
+                [
+                    "xpath///*[@id=\"username\"]"
+                ],
+                [
+                    "pierce/#username"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Password"
+                ],
+                [
+                    "#password"
+                ],
+                [
+                    "xpath///*[@id=\"password\"]"
+                ],
+                [
+                    "pierce/#password"
+                ]
+            ],
+            "offsetY": 23.609375,
+            "offsetX": 112.40625
+        },
+        {
+            "type": "change",
+            "value": "defaultpassword",
+            "selectors": [
+                [
+                    "aria/Password"
+                ],
+                [
+                    "#password"
+                ],
+                [
+                    "xpath///*[@id=\"password\"]"
+                ],
+                [
+                    "pierce/#password"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Login[role=\"button\"]"
+                ],
+                [
+                    "#loginForm > button"
+                ],
+                [
+                    "xpath///*[@id=\"loginForm\"]/button"
+                ],
+                [
+                    "pierce/#loginForm > button"
+                ]
+            ],
+            "offsetY": 14.609375,
+            "offsetX": 33.59375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/New Password"
+                ],
+                [
+                    "#newPassword"
+                ],
+                [
+                    "xpath///*[@id=\"newPassword\"]"
+                ],
+                [
+                    "pierce/#newPassword"
+                ]
+            ],
+            "offsetY": 20.609375,
+            "offsetX": 120.84375
+        },
+        {
+            "type": "change",
+            "value": "new passsword",
+            "selectors": [
+                [
+                    "aria/New Password"
+                ],
+                [
+                    "#newPassword"
+                ],
+                [
+                    "xpath///*[@id=\"newPassword\"]"
+                ],
+                [
+                    "pierce/#newPassword"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Change Password"
+                ],
+                [
+                    "#loggedInSection > button:nth-of-type(1)"
+                ],
+                [
+                    "xpath///*[@id=\"loggedInSection\"]/button[1]"
+                ],
+                [
+                    "pierce/#loggedInSection > button:nth-of-type(1)"
+                ],
+                [
+                    "text/Change Password"
+                ]
+            ],
+            "offsetY": 16.609375,
+            "offsetX": 117.078125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Logout"
+                ],
+                [
+                    "button:nth-of-type(2)"
+                ],
+                [
+                    "xpath///*[@id=\"loggedInSection\"]/button[2]"
+                ],
+                [
+                    "pierce/button:nth-of-type(2)"
+                ],
+                [
+                    "text/Logout"
+                ]
+            ],
+            "offsetY": 26.609375,
+            "offsetX": 26.875
+        }
+    ]
+}

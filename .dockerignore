@@ -1,0 +1,24 @@
+# Exclude node_modules folder
+node_modules
+
+# Exclude npm debug logs
+npm-debug.log*
+
+# Exclude IDE-specific files and directories
+.vscode
+.idea
+
+# Exclude version control files and directories
+.git
+.gitignore
+
+# Exclude build artifacts and logs
+build/
+dist/
+*.log
+
+# Exclude Docker-related files
+Dockerfile
+.dockerignore
+
+# Exclude any other files or directories specific to your project

@@ -1,0 +1,20 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "recording.js",
+  "scripts": {
+    "build": "npm install",
+    "replay": "replay recording.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@puppeteer/replay": "^3.0.0",
+    "akeyless": "^4.0.0",
+    "akeyless-cloud-id": "^2.3.0",
+    "puppeteer": "^22.12.0"
+  }
+}
